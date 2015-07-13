@@ -1,0 +1,20 @@
+{
+   [{
+    "modid": "sam",
+    "name": "Simply Another Mod",
+    "description": "My first mod.",
+    "version": "1.7.10-1.0.0",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [ "asolitarywolf" ],
+    "credits": "Authored by asolitarywolf. Thanks to Direwolf20, Pahimar, and many others!",
+    "logoFile": "",
+    "screenshots": [ "" ],
+    "parent": "",
+    "requiredMods": [ "" ],
+    "dependencies": [ "" ],
+    "dependants": [ "" ],
+    "useDependencyInformation": true
+  }]
+}
