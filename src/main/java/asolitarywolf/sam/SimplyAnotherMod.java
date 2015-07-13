@@ -1,6 +1,7 @@
 package asolitarywolf.sam;
 
 import asolitarywolf.sam.handler.ConfigurationHandler;
+import asolitarywolf.sam.init.ModItems;
 import asolitarywolf.sam.proxy.IProxy;
 import asolitarywolf.sam.reference.Reference;
 import asolitarywolf.sam.utility.LogHelper;
@@ -27,6 +28,8 @@ public class SimplyAnotherMod {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialization Complete");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
